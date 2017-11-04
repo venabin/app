@@ -1,0 +1,286 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-13 15:48:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-13 21:40:07
+*/
+body,div,ul,li,a,h4,span,p,img{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.top-nav{
+	height: 40px;
+	background-color: #333;
+}
+.top-nav ul{
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+.top-nav ul li{
+	float: left;
+	height: 13px;
+	margin-top: 9px;
+}
+.top-nav ul li a{
+	display: inline-block;
+	line-height: 13px;
+	height: 13px;
+	font-size: 12px;
+	color: #b0b0b0;
+	padding: 0 8px;
+}
+.border{
+	border-right: 1px solid #757575;
+}
+.top{
+	height: 55px;
+	width: 1226px;
+	margin: 22px auto; 
+}
+.logo{
+	float: left;
+}
+.top .nav{
+	float: left;
+}
+.top .nav ul{
+	height: 55px;
+}
+.top .nav ul li{
+	height: 55px;
+	float: left;
+}
+.top .nav ul li a{
+	display: inline-block;
+	line-height: 55px;
+	padding: 0 13px;
+	color: #333;
+}
+.box1{
+	width: 1226px;
+	height: 644px;
+	margin: 0 auto;
+}
+.box1-t{
+	height: 460px;
+	width: 1226px;
+}
+.box1-t .left{
+	width: 234px;
+	height: 460px;
+	background-color: #2c505f;
+	float: left;
+}
+.box1-t .left ul{
+	/* width: 180px; */
+	height: 428px;
+}
+.box1-t .left ul li{
+	height: 45px;
+}
+.box1-t .left ul li a{
+	display: inline-block;
+	height: 45px;
+	width: 200px;
+    padding-left: 30px;
+    line-height: 45px;
+    font-size: 12px;
+    color: #fff;
+	background: url(../images/li.png) right no-repeat;
+}
+.box1 .right{
+	height: 460px;
+	width: 991px;
+	float: left;
+}
+.box1-b{
+	width: 1226px;
+	height: 170px;
+	margin-top: 14px;
+}
+.box1-b .bb{
+	float: left;
+	width: 234px;
+	height: 113px;
+	text-align: center;
+	background-color: #5f5750;
+	padding-top: 57px;
+	color: #fff;
+}
+.adv{
+	margin-left: 14px;
+	float: left;
+	width: 316px;
+	height: 170px;
+}
+.adv img{
+	height: 170px;
+}
+.box2{
+	height: 700px;
+	background-color: #f5f5f5;
+	margin-top: 22px;
+}
+.box2 .top{
+	width: 1226px;
+	height: 56px;
+	margin: 0 auto;
+}
+.box2 h4{
+	width: 100px;
+	height: 56px;
+	line-height: 56px;
+	float: left;
+}
+.box2 .top a{
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	float: right;
+	color: #000;
+}
+.box2 .con{
+	width: 1226px;
+	height: 628px;
+	margin: 0 auto;
+}
+.box2 .con .left{
+	float: left;
+}
+.box2 .con .right{
+	height: 628px;
+	float: left;
+}
+.box2 .con .right .r-t{
+	width: 992px;
+	height: 300px;
+}
+.box2 .con .right .pro{
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	background-color: #fff;
+	float: left;
+}
+.box2 .con .right .pro .title{
+	width: 64px;
+	height: 20px;
+	background-color: #ffac13;
+	text-align: center;
+	margin-left: 85px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+.box2 .con .right .pro .image{
+	margin-left: 35px;
+}
+.box2 .con .right .pro .image img {
+	height: 160px;
+}
+.box2 .con .right .pro p{
+	height: 63px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.box2 .con .right .pro p .s1{
+	color: #333;
+}
+.box2 .con .right .pro p .s2{
+	color: #b0b0b0;
+}
+.box2 .con .right .pro p .s3{
+	color: #ff6700;
+}
+.box2 .con .right .r-b{
+	width: 992px;
+	height: 300px;
+	margin-top: 14px;
+}
+.footer{
+	height: 368px;
+}
+.footer .f-t{
+	height: 187px;
+	background-color: #fff;
+}
+.footer .f-t .con{
+	width: 1226px;
+	height: 143px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.footer .f-t .con .left{
+	width: 960px;
+	height: 143px;
+	float: left;
+}
+.footer .f-t .con .left ul{
+	width: 160px;
+	height: 143px;
+	float: left;
+}
+.footer .f-t .con .left ul li{
+	height: 27px;
+}
+.footer .f-t .con .left ul li a{
+	display: inline-block;
+	line-height: 27px;
+	font-size: 12px;
+	color: #333;
+}
+.footer .f-t .con .left ul .strong{
+	line-height: 60px;
+	font-size: 14px;
+	color: #111;
+}
+.footer .f-t .con .right{
+	width: 250px;
+	height: 112px;
+	margin-left: 14px;
+	border-left: 1px solid #ececec;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+.footer .f-t .con .right .red{
+	color: #ff6700;
+	font-size: 16px;
+}
+.footer .f-b{
+	height: 157px;
+	background-color: #fafafa;
+}
+.footer .f-b .con{
+	height: 55px;
+	width: 1226px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.footer .f-b .con .icon{
+	height: 55px;
+	width: 55px;
+	float: left;
+}
+.footer .f-b .con .font{
+	float: left;
+	margin-left: 6px;
+}
+.footer .f-b .con .font li{
+	float: left;
+	line-height: 19px;
+}
+.footer .f-b .con .font li a{
+	padding: 5px;
+	display: inline-block;
+	line-height: 10px;
+	color: #757575;
+}
+.footer .f-b .con .font span{
+	line-height: 19px;
+	color: #b0b0b0;
+}
